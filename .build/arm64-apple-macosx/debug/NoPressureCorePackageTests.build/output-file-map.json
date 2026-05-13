@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/primary.swiftdeps"
+  },
+  "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.derived/runner.swift": {
+    "dependencies": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner.d",
+    "object": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner.dia"
+  }
+}

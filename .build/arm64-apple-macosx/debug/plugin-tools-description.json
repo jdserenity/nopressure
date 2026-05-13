@@ -1,0 +1,566 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.xctest/Contents/MacOS/NoPressureCorePackageTests",
+      "packagePath" : "/Users/jd/Documents/coding-temp/nopressure",
+      "productName" : "NoPressureCorePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.NoPressureCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/sources",
+      "importPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/Sources/NoPressureCore/MatchingPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NoPressureCore",
+      "moduleOutputPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCore.swiftmodule",
+      "objects" : [
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/include/NoPressureCore-Swift.h",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "nopressure"
+      ],
+      "outputFileMapPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jd/Documents/coding-temp/nopressure/Sources/NoPressureCore/MatchingPolicy.swift"
+      ],
+      "tempsPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NoPressureCorePackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/sources",
+      "importPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NoPressureCorePackageTests",
+      "moduleOutputPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCorePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/include/NoPressureCorePackageTests-Swift.h",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "nopressure"
+      ],
+      "outputFileMapPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCorePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.NoPressureCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/sources",
+      "importPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/Tests/NoPressureCoreTests/MatchingPolicyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "NoPressureCoreTests",
+      "moduleOutputPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/MatchingPolicyTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "nopressure"
+      ],
+      "outputFileMapPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/MatchingPolicyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules/NoPressureCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jd/Documents/coding-temp/nopressure/Tests/NoPressureCoreTests/MatchingPolicyTests.swift"
+      ],
+      "tempsPath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "NoPressureCore" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "NoPressureCore",
+      "-package-name",
+      "nopressure",
+      "-c",
+      "/Users/jd/Documents/coding-temp/nopressure/Sources/NoPressureCore/MatchingPolicy.swift",
+      "-I",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/include/NoPressureCore-Swift.h",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "nopressure",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "NoPressureCorePackageTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "NoPressureCorePackageTests",
+      "-package-name",
+      "nopressure",
+      "-c",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/include/NoPressureCorePackageTests-Swift.h",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "nopressure",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "NoPressureCoreTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "NoPressureCoreTests",
+      "-package-name",
+      "nopressure",
+      "-c",
+      "/Users/jd/Documents/coding-temp/nopressure/Tests/NoPressureCoreTests/MatchingPolicyTests.swift",
+      "-I",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "nopressure",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "NoPressureCore" : [
+
+    ],
+    "NoPressureCorePackageTests" : [
+      "NoPressureCoreTests",
+      "NoPressureCore"
+    ],
+    "NoPressureCoreTests" : [
+      "NoPressureCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/Sources/NoPressureCore/MatchingPolicy.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/sources"
+    },
+    "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/sources"
+    },
+    "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/MatchingPolicyTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCorePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jd/Documents/coding-temp/nopressure/Tests/NoPressureCoreTests/MatchingPolicyTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCoreTests.build/sources"
+    },
+    "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

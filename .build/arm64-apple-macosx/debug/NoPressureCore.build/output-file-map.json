@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/primary.swiftdeps"
+  },
+  "/Users/jd/Documents/coding-temp/nopressure/Sources/NoPressureCore/MatchingPolicy.swift": {
+    "dependencies": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy.d",
+    "object": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy.swift.o",
+    "swiftmodule": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy~partial.swiftmodule",
+    "swift-dependencies": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy.swiftdeps",
+    "diagnostics": "/Users/jd/Documents/coding-temp/nopressure/.build/arm64-apple-macosx/debug/NoPressureCore.build/MatchingPolicy.dia"
+  }
+}

@@ -35,7 +35,10 @@ Documentation Rules
 - Minimal doc deltas: when updating docs from conversation, add only facts and decisions that belong in-repo. Do not dump full Q&A transcripts or speculative padding into ARCHITECTURE.md / TODO.md.
 - Keep AGENT.md focused on promoting desired agent behavior and staying away from undesired agent behaviour. Anything product architecture does not belong here.
 - Update TODO.md whenever you encounter an unresolved decision, open question, or planned task.
-- Do not delete items from TODO.md. When an item in TODO.md is resolved, check it off and include the agent name and timestamp.
+- Do not delete items from TODO.md. Never remove historical TODO lines.
+- When an item in TODO.md is resolved, keep the line in place and mark it complete using all of: checkbox `[x]`, markdown strikethrough on the task text, and completion metadata `(agent/model, YYYY-MM-DD HH:MM TZ)`.
+- Completion format is mandatory. Example: `- [x] ~~Implement profile edit flow~~ (Codex 5.3, 2026-05-08 14:05 UTC-3)`.
+- If a previously completed item does not use this format, rewrite it into this format instead of deleting/replacing the item.
 - Items in TODO.md should be added in *reverse-chronological order*, meaning that new items will be added to the *top* of the file, not the bottom.
 - Update AGENT.md whenever the user specifies a repeated agent behavior that should persist.
 - Keep documentation factual and current.
